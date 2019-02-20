@@ -76,3 +76,25 @@
 			width:500px;
 			height:500px;
 		}
+		h2{
+			Color:Purple;
+			text-align:center;
+			font-size:2em;
+		}
+		table{
+			font-family:Arial;
+			border-collapse:collapse;
+			width:100%;
+		}	
+		td,th{
+			border:1px solid #grey;
+			text-align:left;
+			padding:8px;
+		}	
+		tr:nth-child(even){
+			background-color:white;
+		}
+		tr:nth-child(odd){
+			background-color:yellow;
+		}
+		
