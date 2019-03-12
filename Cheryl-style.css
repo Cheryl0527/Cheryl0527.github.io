@@ -45,11 +45,32 @@
 			color: IndianRed;
 			font-family: 'Over the Rainbow';
 		}
+		
 		img{
 			margin-left:7em;
 			float:left;
 			margin-bottom:5em;
 		}	
+		img.image1 {
+		filter: invert;
+		-webkit-filter: invert;
+		}
+		
+		img.image1{
+		animation: animation1 2s infinite alternate;
+		-webkit-animation: animation1 2s infinite alternate;
+		width: 40%:
+		}
+		
+		@keyframes animation1{
+		from {filter: invert(0%); }
+		to {filter: invert(100%); }
+		}
+		@-webkit-keyframes animation1{
+		from {filter: invert(0%); }/{ width:20%;}
+		to {filter: invert(100%); }/{ width: 100%;}
+		}
+		
 		#right{
 			margin-right:5em;
 			float:right;
