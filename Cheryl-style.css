@@ -67,8 +67,8 @@
 		to {filter: invert(100%); }
 		}
 		@-webkit-keyframes animation1{
-		from {filter: invert(0%); }/{ width:20%;}
-		to {filter: invert(100%); }/{ width: 100%;}
+		from {filter: invert(0%); }
+		to {filter: invert(100%); }
 		}
 		
 		#right{
